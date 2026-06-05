@@ -3,10 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos De Toro Tec</title>
+    <title>De Toro Tec - Tienda de Videojuegos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Productos De Toro Tec</h1>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">DE TORO TEC</div>
+        </div>
+    </header>
+
+    <section class="hero container">
+        <h1 class="section-title">Encuentra tu equipo ideal</h1>
+        <div class="categories">
+            <div class="category-card">Consolas</div>
+            <div class="category-card">Laptops</div>
+            <div class="category-card">Accesorios</div>
+        </div>
+        <div class="hero-action">
+            <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <section id="catalogo" class="catalog container">
+        <h2 class="section-title">Catálogo de Productos Destacados</h2>
+        <div class="grid-container">
+            
+            <div class="product-card">
+                <img src="img/odin3pro.jpg" alt="Odin 3 Pro" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Odin 3 Pro</h3>
+                    <p class="product-price">S/. 2,199</p>
+                    <p class="product-stock status-available">Stock: Disponible</p>
+                    <a href="#info-odin" class="btn-secondary">Solicitar Información</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/retroid-pocket-6.jpg" alt="Retroid Pocket 6" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Retroid Pocket 6</h3>
+                    <p class="product-price">S/. 1,699</p>
+                    <p class="product-stock status-available">Stock: Disponible</p>
+                    <a href="#info-retroid" class="btn-secondary">Solicitar Información</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="details container">
+        <h2 class="section-title">Información Detallada (Vista Rápida del Cliente)</h2>
+        <p class="section-subtitle">Así visualizará el cliente los datos al instante, evitando esperas con los vendedores.</p>
+        
+        <div class="details-grid">
+            
+            <div id="info-odin" class="detail-panel">
+                <div class="panel-header">
+                    <h3>Ficha Técnica: Odin 3 Pro</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="specs-list">
+                        <li>Precio: <span>S/. 2,199</span></li>
+                        <li>Stock exacto: <span>15 unidades</span></li>
+                        <li>Garantía: <span>1 año</span></li>
+                    </ul>
+                    <div class="description-box">
+                        <h4>Descripción:</h4>
+                        <p>Consola portátil para videojuegos de alto rendimiento.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="info-retroid" class="detail-panel">
+                <div class="panel-header">
+                    <h3>Ficha Técnica: Retroid Pocket 6</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="specs-list">
+                        <li>Precio: <span>S/. 1,699</span></li>
+                        <li>Stock exacto: <span>10 unidades</span></li>
+                        <li>Garantía: <span>1 año</span></li>
+                    </ul>
+                    <div class="description-box">
+                        <h4>Descripción:</h4>
+                        <p>Consola portátil para juegos retro y Android con excelente relación calidad-precio.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Grupo 1 - De Toro Tec. | Profesora un 20 ps :(</p>
+    </footer>
+
 </body>
 </html>
