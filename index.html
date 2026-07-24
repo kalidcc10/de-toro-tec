@@ -3,205 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De Toro Tec - Tienda de Videojuegos</title>
+    <title>De Toro Tec | Premium Gaming Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
     <header class="header">
         <div class="container header-content">
-            <div class="logo-text">DE TORO TEC</div>
+            <div class="logo-text">DE TORO<span class="logo-accent">TEC</span></div>
         </div>
     </header>
 
     <section class="hero container">
-        <h1 class="section-title">Encuentra tu equipo ideal</h1>
-        <div class="categories">
-            <div class="category-card">Consolas</div>
-            <div class="category-card">Laptops</div>
-            <div class="category-card">Accesorios</div>
+        <div class="hero-text-box">
+            <h1 class="section-title animated-gradient-text">LA NUEVA ERA DEL JUEGO PORTÁTIL</h1>
+            <p class="section-subtitle">Descubre el equilibrio perfecto entre potencia, nostalgia y movilidad extrema.</p>
         </div>
+        
+        <div class="info-cards-container">
+            <div class="info-card floating-1">
+                <div class="info-icon glow-cyan">⚙️</div>
+                <h3>POTENCIA EXTREMA</h3>
+                <p>Hardware diseñado para no tener límites en tu rendimiento.</p>
+                <div class="info-tags">
+                    <span>16GB RAM</span>
+                    <span>CPU Top</span>
+                    <span>SSD NVMe</span>
+                </div>
+            </div>
+
+            <div class="info-card floating-2">
+                <div class="info-icon glow-purple">🎮</div>
+                <h3>CATÁLOGO INFINITO</h3>
+                <p>Juega absolutamente todo lo que imaginas en un solo lugar.</p>
+                <div class="info-tags">
+                    <span>Retro</span>
+                    <span>Android 3D</span>
+                    <span>PC Streaming</span>
+                </div>
+            </div>
+
+            <div class="info-card floating-3">
+                <div class="info-icon glow-pink">🔋</div>
+                <h3>MOVILIDAD TOTAL</h3>
+                <p>Lleva tus partidas a donde vayas sin interrupciones.</p>
+                <div class="info-tags">
+                    <span>Batería Pro</span>
+                    <span>OLED / IPS</span>
+                    <span>Ergonomía</span>
+                </div>
+            </div>
+        </div>
+
         <div class="hero-action">
-            <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+            <a href="#catalogo" class="btn-primary">EXPLORAR CATÁLOGO</a>
         </div>
     </section>
 
     <section id="catalogo" class="catalog container">
-        <h2 class="section-title">Catálogo de Productos Destacados</h2>
+        <div class="catalog-header">
+            <h2 class="section-title">ARSENAL DESTACADO</h2>
+            <div class="divider"></div>
+        </div>
+        
         <div class="grid-container">
             
-            <!-- Tarjeta 1: Ayn Odin 3 -->
-<div class="product-card">
-    <img src="img/ayn-odin-3.jpg" alt="Ayn Odin 3" class="product-image">
-    <div class="product-info">
-        <span class="badge badge-new">Nuevo</span>
-        <h3 class="product-name">Ayn Odin 3</h3>
-        <p class="product-price">Desde S/. 2,199</p>
-        <details class="product-details">
-            <summary>Ver versiones disponibles</summary>
-            <ul class="version-list">
-                <li>Base: <span>S/. 2,199</span></li>
-                <li>Pro: <span>S/. 2,399</span></li>
-                <li>Max: <span>S/. 2,549</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-
-<!-- Tarjeta 2: Ayn Thor -->
-<div class="product-card">
-    <img src="img/ayn-thor.jpg" alt="Ayn Thor" class="product-image">
-    <div class="product-info">
-        <h3 class="product-name">Ayn Thor</h3>
-        <p class="product-price">Desde S/. 1,999</p>
-        <details class="product-details">
-            <summary>Ver versiones disponibles</summary>
-            <ul class="version-list">
-                <li>Base: <span>S/. 1,999</span></li>
-                <li>Pro: <span>S/. 2,299</span></li>
-                <li>Max: <span>S/. 2,599</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-
-<!-- Tarjeta 3: Ayn Odin 2 -->
-<div class="product-card">
-    <img src="img/ayn-odin-2.jpg" alt="Ayn Odin 2" class="product-image">
-    <div class="product-info">
-        <span class="badge badge-hot">Más Vendido</span>
-        <h3 class="product-name">Ayn Odin 2</h3>
-        <p class="product-price">Desde S/. 1,799</p>
-        <details class="product-details">
-            <summary>Ver versiones disponibles</summary>
-            <ul class="version-list">
-                <li>Base: <span>S/. 1,799</span></li>
-                <li>Pro: <span>S/. 1,999</span></li>
-                <li>Max: <span>S/. 2,399</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-
-<!-- Tarjeta 4: Retroid Pocket 6 -->
-<div class="product-card">
-    <img src="img/retroid-pocket-6.jpg" alt="Retroid Pocket 6" class="product-image">
-    <div class="product-info">
-        <h3 class="product-name">Retroid Pocket 6</h3>
-        <p class="product-price">S/. 1,699</p>
-        <details class="product-details">
-            <summary>Ver características</summary>
-            <ul class="version-list">
-                <li>Edición Estándar</li>
-                <li>Stock: <span class="status-available">Disponible</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-
-<!-- Tarjeta 5: Anbernic RG557 -->
-<div class="product-card">
-    <img src="img/anbernic-rg557.jpg" alt="Anbernic RG557" class="product-image">
-    <div class="product-info">
-        <h3 class="product-name">Anbernic RG557</h3>
-        <p class="product-price">S/. 1,549</p>
-        <details class="product-details">
-            <summary>Ver características</summary>
-            <ul class="version-list">
-                <li>Edición Estándar</li>
-                <li>Stock: <span class="status-available">Disponible</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-
-<!-- Tarjeta 6: Anbernic RG477V -->
-<div class="product-card">
-    <img src="img/anbernic-rg477v.jpg" alt="Anbernic RG477V" class="product-image">
-    <div class="product-info">
-        <h3 class="product-name">Anbernic RG477V</h3>
-        <p class="product-price">S/. 1,199</p>
-        <details class="product-details">
-            <summary>Ver características</summary>
-            <ul class="version-list">
-                <li>Edición Estándar</li>
-                <li>Stock: <span class="status-available">Disponible</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-
-<!-- Tarjeta 7: Gamestick M88 -->
-<div class="product-card">
-    <img src="img/gamestick-m88.jpg" alt="Gamestick M88" class="product-image">
-    <div class="product-info">
-        <h3 class="product-name">Gamestick M88</h3>
-        <p class="product-price">S/. 399</p>
-        <details class="product-details">
-            <summary>Ver características</summary>
-            <ul class="version-list">
-                <li>Edición Estándar</li>
-                <li>Stock: <span class="status-available">Disponible</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-
-<!-- Tarjeta 8: Gamestick M15 Pro -->
-<div class="product-card">
-    <img src="img/gamestick-m15-pro.jpg" alt="Gamestick M15 Pro" class="product-image">
-    <div class="product-info">
-        <span class="badge badge-sale">Oferta</span>
-        <h3 class="product-name">Gamestick M15 Pro</h3>
-        <p class="product-price">S/. 229</p>
-        <details class="product-details">
-            <summary>Ver características</summary>
-            <ul class="version-list">
-                <li>Edición Estándar</li>
-                <li>Stock: <span class="status-available">Disponible</span></li>
-            </ul>
-        </details>
-    </div>
-</div>
-    </section>
-
-    <section class="details container">
-        <h2 class="section-title">Información Detallada (Vista Rápida del Cliente)</h2>
-        <p class="section-subtitle">Así visualizará el cliente los datos al instante, evitando esperas con los vendedores.</p>
-        
-        <div class="details-grid">
-            
-            <div id="info-odin" class="detail-panel">
-                <div class="panel-header">
-                    <h3>Ficha Técnica: Odin 3 Pro</h3>
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <span class="badge badge-new">NUEVO</span>
+                    <img src="img/ayn-odin-3.jpeg" alt="Ayn Odin 3" class="product-image">
                 </div>
-                <div class="panel-body">
-                    <ul class="specs-list">
-                        <li>Precio: <span>S/. 2,199</span></li>
-                        <li>Stock exacto: <span>15 unidades</span></li>
-                        <li>Garantía: <span>1 año</span></li>
-                    </ul>
-                    <div class="description-box">
-                        <h4>Descripción:</h4>
-                        <p>Consola portátil para videojuegos de alto rendimiento.</p>
-                    </div>
+                <div class="product-info">
+                    <h3 class="product-name">AYN ODIN 3</h3>
+                    <p class="product-price">Desde S/. 2,199</p>
+                    <details class="product-details">
+                        <summary>CONFIGURACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Base: <span>S/. 2,199</span></li>
+                            <li>Pro: <span>S/. 2,399</span></li>
+                            <li>Max: <span>S/. 2,549</span></li>
+                        </ul>
+                    </details>
                 </div>
             </div>
 
-            <div id="info-retroid" class="detail-panel">
-                <div class="panel-header">
-                    <h3>Ficha Técnica: Retroid Pocket 6</h3>
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/ayn-thor.jpeg" alt="Ayn Thor" class="product-image">
                 </div>
-                <div class="panel-body">
-                    <ul class="specs-list">
-                        <li>Precio: <span>S/. 1,699</span></li>
-                        <li>Stock exacto: <span>10 unidades</span></li>
-                        <li>Garantía: <span>1 año</span></li>
-                    </ul>
-                    <div class="description-box">
-                        <h4>Descripción:</h4>
-                        <p>Consola portátil para juegos retro y Android con excelente relación calidad-precio.</p>
-                    </div>
+                <div class="product-info">
+                    <h3 class="product-name">AYN THOR</h3>
+                    <p class="product-price">Desde S/. 1,999</p>
+                    <details class="product-details">
+                        <summary>CONFIGURACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Base: <span>S/. 1,999</span></li>
+                            <li>Pro: <span>S/. 2,299</span></li>
+                            <li>Max: <span>S/. 2,599</span></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <span class="badge badge-hot">MÁS VENDIDO</span>
+                    <img src="img/ayn-odin-2.jpeg" alt="Ayn Odin 2" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">AYN ODIN 2</h3>
+                    <p class="product-price">Desde S/. 1,799</p>
+                    <details class="product-details">
+                        <summary>CONFIGURACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Base: <span>S/. 1,799</span></li>
+                            <li>Pro: <span>S/. 1,999</span></li>
+                            <li>Max: <span>S/. 2,399</span></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/retroid-pocket-6.jpeg" alt="Retroid Pocket 6" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">RETROID POCKET 6</h3>
+                    <p class="product-price">S/. 1,699</p>
+                    <details class="product-details">
+                        <summary>ESPECIFICACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Edición Estándar</li>
+                            <li>Stock: <span class="status-available">DISPONIBLE</span></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/anbernic-rg557.jpeg" alt="Anbernic RG557" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">ANBERNIC RG557</h3>
+                    <p class="product-price">S/. 1,549</p>
+                    <details class="product-details">
+                        <summary>ESPECIFICACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Edición Estándar</li>
+                            <li>Stock: <span class="status-available">DISPONIBLE</span></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/anbernic-rg477v.jpeg" alt="Anbernic RG477V" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">ANBERNIC RG477V</h3>
+                    <p class="product-price">S/. 1,199</p>
+                    <details class="product-details">
+                        <summary>ESPECIFICACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Edición Estándar</li>
+                            <li>Stock: <span class="status-available">DISPONIBLE</span></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <img src="img/gamestick-m88.jpeg" alt="Gamestick M88" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">GAMESTICK M88</h3>
+                    <p class="product-price">S/. 399</p>
+                    <details class="product-details">
+                        <summary>ESPECIFICACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Edición Estándar</li>
+                            <li>Stock: <span class="status-available">DISPONIBLE</span></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-image-wrapper">
+                    <span class="badge badge-sale">OFERTA</span>
+                    <img src="img/gamestick-m15-pro.jpeg" alt="Gamestick M15 Pro" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">GAMESTICK M15 PRO</h3>
+                    <p class="product-price">S/. 229</p>
+                    <details class="product-details">
+                        <summary>ESPECIFICACIONES ▼</summary>
+                        <ul class="version-list">
+                            <li>Edición Estándar</li>
+                            <li>Stock: <span class="status-available">DISPONIBLE</span></li>
+                        </ul>
+                    </details>
                 </div>
             </div>
 
@@ -209,7 +220,11 @@
     </section>
 
     <footer class="footer">
-        <p>Grupo 1 - De Toro Tec. | Profesora un 20 ps :(</p>
+        <div class="container footer-content">
+            <div class="footer-logo">DE TORO<span>TEC</span></div>
+            <p class="footer-text">Grupo 1 | Profesora un 20 ps :c </p>
+            <p class="footer-easter-egg">UNIVERSIDAD AUTONOMA DEL PERU </p>
+        </div>
     </footer>
 
 </body>
